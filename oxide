@@ -14,7 +14,6 @@ if uselessfucker[LocalPlayer.UserId] then
     return
 end
 local mod = true
-if mod == true then
 local oa = {}
 
 oa.AddHat = function(id)
@@ -370,6 +369,3 @@ if not getgenv()["Whitelist"] then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstraOutlight/my-scripts/refs/heads/main/namertag"))()
 end
 return oa;
-else
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("Look at me! i tried to steal things! what a worthléss pīëcè of clown i am!")
-end
